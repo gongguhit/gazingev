@@ -4,7 +4,7 @@ from scipy.ndimage import sobel
 import matplotlib.pyplot as plt
 
 # Load the image
-image_path = 'test.jpg'
+image_path = 'test.png'
 image = Image.open(image_path).convert('L')  # Convert to grayscale
 image_np = np.array(image)
 
